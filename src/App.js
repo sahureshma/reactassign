@@ -12,10 +12,10 @@ function App() {
         <div>
           <p>component based architecture</p>
           </div>
-          <div><p>virtual DOM for efficient update</p></div>
-          <div><p>Rich ecosystem and community</p></div>
-          <div><p>cross-platform development</p></div>
-          <div><p>strong community support</p>
+          <div><p>1. virtual DOM for efficient update</p></div>
+          <div><p>2. Rich ecosystem and community</p></div>
+          <div><p>3.cross-platform development</p></div>
+          <div><p>4.strong community support</p>
         </div>
         <div>
           <button>Get Started..</button>
@@ -27,3 +27,4 @@ function App() {
 }
 
 export default App;
+// DOM and Virtual D
