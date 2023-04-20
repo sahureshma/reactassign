@@ -1,30 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { Button } from './button/button';
+import Invitation from './invitation/invitation';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div>
-          <h1>Benefits of using react...</h1>
-        </div>
-        <div>
-          <p>component based architecture</p>
-          </div>
-          <div><p>1. virtual DOM for efficient update</p></div>
-          <div><p>2. Rich ecosystem and community</p></div>
-          <div><p>3.cross-platform development</p></div>
-          <div><p>4.strong community support</p>
-        </div>
-        <div>
-          <button>Get Started..</button>
-        </div>
+     <Invitation
+  subject="Birthday party Invitation"
+  to="jaGdish@gmail.com"
+  name="jaGdish"
+  date="next Friday"
+  time="my Home"
+  location="behind our school, near Green field Avenue"
+  attendees="Ritu, Saurabh, Kartik"
+/>
       
-      </header>
     </div>
   );
 }
 
 export default App;
-// DOM and Virtual D
