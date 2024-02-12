@@ -1,0 +1,53 @@
+.active{
+    border:turquoise;
+}
+nav{
+    display: flex;
+    background-color: rgb(162, 135, 235);
+    color:black;
+    justify-content: space-between;
+    text-align: center;
+
+
+}
+.titl{
+    font-size: 1.5rem;
+    margin:1 rem;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+
+}
+nav li a{
+    display:block;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+}
+nav ul li{
+    display:block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5 rem;
+    margin:0 0.5 rem;
+    border-radius: 0 0.5 rem;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a:hover{
+    background-color: turquoise;
+}
+nav.menu{
+    height :0.4rem;
+    width :100%;
+    background-color: white;
+    border-radius: 0.2rem;
+}
